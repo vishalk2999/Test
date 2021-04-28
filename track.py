@@ -35,8 +35,8 @@ face_detector = MTCNN()
 embedder = keras_facenet.FaceNet()
 gendict = dict()
 
-age_model = load_model('/content/drive/MyDrive/models/age.h5')
-gender_model = load_model('/content/drive/MyDrive/models/gender.h5')
+age_model = load_model('./models/age.h5')
+gender_model = load_model('./models/gender.h5')
 
 
 
